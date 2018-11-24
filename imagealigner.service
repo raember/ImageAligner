@@ -1,0 +1,8 @@
+[Unit]
+Description=Image alignment service
+
+[Service]
+ExecStart=/usr/bin/env python3 %h/documents/git/ImageAligner/main.py
+
+[Install]
+WantedBy=default.target
